@@ -74,6 +74,8 @@ padding-bottom: 15px;
 .footer{
 padding: 0;
 bottom: 0;
+position: absolute;
+border: none;
 }
 
 @media (min-width: 768px) {
@@ -124,6 +126,7 @@ bottom: 0;
 		max-width: 80%;
 		margin: 0 auto;
 		text-align: center;
+		position: relative;
 		}
 
 }
