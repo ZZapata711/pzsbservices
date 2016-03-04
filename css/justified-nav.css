@@ -1,5 +1,6 @@
 body {
-  padding-top: 0
+  padding-top: 0;
+  background-color: #e1e8f0;
 }
 
 .footer {
@@ -7,6 +8,16 @@ body {
   padding-bottom: 40px;
   margin-top: 20px;
   border-top: 1px solid #eee;
+}
+
+.btn-primary{
+	background-color: #9068be;
+	border-color: #9068be;
+}
+
+.telephone{
+	width: 150pxpx;
+	height: 100px;
 }
 
 /* Main marketing message and sign up button */
@@ -62,6 +73,15 @@ body {
 	text-align:center;
 }
 
+.contact{
+	text-align: center;
+	max-width: 80%;
+}
+
+.contact p{
+	padding: 0 40px;
+}
+
 .masthead{
 text-align: center;
 }
@@ -78,11 +98,14 @@ position: absolute;
 border: none;
 }
 
-.col-lg-6{
+.col-lg-6, .col-lg-9{
 	text-align:center;
 	padding: 0 40px;
 }
 
+.col-lg-9{
+	margin: 0 auto;
+}
 .col-lg-6 img{
 	width: 225px;
 	height: 200px;
@@ -143,5 +166,17 @@ border: none;
 		text-align: center;
 		position: relative;
 		}
+	.telephone{
+		display: none;
+	}
+	.contact-footer{
+		position: absolute;
+		bottom: 0;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.contact p{
+	padding: 0;
+}
 
 }
