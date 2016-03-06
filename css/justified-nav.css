@@ -7,7 +7,7 @@ body {
 
 body::after{
  content: "";
-  background: url('../clouds.jpg');
+  background: url('../botanical.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
