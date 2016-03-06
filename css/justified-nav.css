@@ -5,20 +5,6 @@ body {
   font-weight: bold;
 }
 
-body::after{
- content: "";
-  background: url('../botanical.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
- }
-
  a {
 	color: black;
 	font-weight: bold;
@@ -159,6 +145,10 @@ border: none;
   }
 }
 
+.clipboard{
+	width: 120px;
+	height: 120px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -168,8 +158,25 @@ border: none;
     padding-right: 0;
     padding-left: 0;
   }
+  
 }
 
+@media screen and (min-width: 1180px){
+	body::after{
+  content: "";
+  background: url('../botanical.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+ }
+ }
+ 
 @media (max-width: 767px){
 	.col-lg-4, .col-lg-6{
 		
@@ -207,4 +214,12 @@ border: none;
     content: "";
     background: none;
  }
+	.clipboard{
+		display: none;
+	}
 }
+
+@media (max-width: 1180px){
+	body::after{
+		background: none;
+	}
