@@ -22,7 +22,7 @@ body {
 }
 
 .btn-primary{
-	background-color: #9068be;
+	background-color: babyblue;
 	border-color: #9068be;
 }
 
@@ -149,6 +149,7 @@ border: none;
 	width: 120px;
 	height: 120px;
 }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
